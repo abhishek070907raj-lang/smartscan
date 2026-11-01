@@ -1,0 +1,20 @@
+=== Document: 01_clear_plain (Mode: original) ===
+Confidence: 93.0% | Words: 105 | Time: 840.1ms
+
+System Design Specification
+
+‘SmartScan Image Processing Evaluation Document
+
+Computer vision systems frequently rely on document scanning pipelines to digitize printed
+media. Real-world capture introduces geometric perspective distortion, uneven ambient
+lighting, and sensor noise.
+
+The automated pipeline detects the paper boundary using Canny edge filtering followed by
+polygonal contour approximation. Once four comer vertices are identified, an inverse
+homography perspective warp projects the document back to a frontal, flat plane.
+
+‘Subsequent stages implement morphological background estimation to eliminate shadows
+without washing out ink strokes. Finally, adaptive thresholding or Otsu binarization yields
+optimal contrast for OCR analysis.
+
+CONFIDENTIAL & PROPRIETARY — FOR ACADEMIC TESTING ONLY Page 1/1

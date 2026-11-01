@@ -1,0 +1,10 @@
+image_name,scenario,detection_method,status,warped_width,warped_height,time_detection_ms,time_enhancement_ms,time_ocr_ms,total_time_ms,ocr_words,ocr_confidence_pct
+01_clear_plain.jpg,1. Clear document on plain background,primary_contour,PASSED,686,833,21.55,269.24,629.67,920.46,105,93.02
+02_document_angled.jpg,2. Document at an angle,primary_contour,PASSED,825,831,8.84,115.01,719.85,843.7,105,94.0
+03_dark_shadow.jpg,3. Dark harsh shadow,primary_contour,PASSED,747,776,9.55,115.8,736.7,862.06,102,91.84
+04_uneven_lighting.jpg,4. Uneven lighting,primary_contour,PASSED,725,778,9.6,95.7,730.68,835.99,105,91.15
+05_complex_background.jpg,5. Complex background,primary_contour,PASSED,687,777,9.21,100.34,686.03,795.58,105,92.07
+06_multipage_page1.jpg,6. Multi-page set (Page 1),primary_contour,PASSED,718,784,10.93,102.43,660.29,773.66,90,90.36
+06_multipage_page2.jpg,6. Multi-page set (Page 2),primary_contour,PASSED,718,784,10.15,96.95,615.72,722.82,80,90.74
+06_multipage_page3.jpg,6. Multi-page set (Page 3),primary_contour,PASSED,718,784,8.05,97.61,647.73,753.4,70,90.21
+07_low_quality_blurred.jpg,7. Low-quality or blurred image,fallback_dynamic_canny,RESCUED,735,757,20.77,111.84,878.89,1011.5,0,0.0

@@ -1,0 +1,20 @@
+=== Document: 03_dark_shadow (Mode: enhanced) ===
+Confidence: 93.2% | Words: 97 | Time: 792.2ms
+
+Shadow Attenuation Testing
+
+‘SmartScan Image Processing Evaluation Document
+
+Computer vision systems frequently rely on document scanning pipelines to digitize printed
+media. Real-world capture introduces geometric perspective distortion, uneven ambient
+lighting, and sensor noise.
+
+‘The automated pipeline detects the paper boundary using Canny edge filtering followed by
+polygonal contour approximation. Once four corner vertices are identified, an inverse
+homography perspective warp projects the document back to a frontal, flat plane.
+
+‘Subsequent stages implement morphological background estimation to eliminate shadows
+‘without washing out ink strokes. Finally, adaptive thresholding or Otsu binarization yields
+optimal contrast for OCR analysis.
+
+Page 1/1

@@ -1,0 +1,18 @@
+=== Document: 06_multipage_page2 (Mode: enhanced) ===
+Confidence: 90.0% | Words: 74 | Time: 770.5ms
+
+Final Project Report — Part 2: Methodology
+
+‘SmartScan Image Processing Evaluation Document
+
+Mathematical Foundation: An arbitrary planar surface photographed under projective
+perspective transforms planar coordinates via a 3x3 homography matrix H with 8 degrees of
+freedom.
+
+Edge Processing: The Canny edge detector applies Gaussian smoothing followed by Sobel
+gradient computations, non-maximum suppression, and hysteresis thresholding.
+
+llumination Correction: Background estimation employs morphological dilation using a
+circular structuring element followed by median blur filtering
+
+Page wt

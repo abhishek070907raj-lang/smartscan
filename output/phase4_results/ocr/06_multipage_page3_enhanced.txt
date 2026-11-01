@@ -1,0 +1,18 @@
+=== Document: 06_multipage_page3 (Mode: enhanced) ===
+Confidence: 88.6% | Words: 70 | Time: 765.9ms
+
+Final Project Report — Part 3: Evaluation
+
+‘SmartScan Image Processing Evaluation Document
+
+Experimental Results: The pipeline was evaluated against synthetic benchmark scenarios
+representing various environmental distortions.
+
+‘Optical Character Recognition: Evaluated using Tesseract OCR v5. Confidence scores and
+word recognition rates demonstrate superior fidelity on shadow-removed and
+CLAHE-enhanced outputs.
+
+Conclusion: The system delivers competitive performance relative to commercial mobile
+scanning solutions.
+
+CONFIDENTIAL & PROPRIETARY ~ FOR ACADEMIC TESTING ONLY Page wt

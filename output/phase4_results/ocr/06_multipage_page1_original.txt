@@ -1,0 +1,20 @@
+=== Document: 06_multipage_page1 (Mode: original) ===
+Confidence: 92.7% | Words: 91 | Time: 841.5ms
+
+Final Project Report — Part 1: Overview
+
+‘SmartScan image Processing Evaluation Document
+
+Introduction: The Smart Document Scanner project presents a real-time computer vision
+workflow capable of converting unconstrained mobile phone captures into high-resolution
+‘scanner quality outputs.
+
+Motivation: Handheld captures suffer from perspective keystone distortion, non-uniform
+ambient illumination, and motion blur. Traditional flatbed scanners eliminate these physical
+anomalies through controlled optical geometry.
+
+Objectives: 1. Accurate quadrangular paper contour localization. 2. Inverse projective
+homography mapping. 3. Morphological illumination compensation. 4. High-accuracy OCR
+transcription
+
+CONFIDENTIAL & PROPRIETARY — FOR ACADEMIC TESTING ONLY Page 1/1
